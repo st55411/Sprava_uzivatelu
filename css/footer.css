@@ -1,0 +1,17 @@
+footer{
+    margin-top: 0px;
+    padding: 70px;
+    background: teal;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+footer a {
+    font-size: 16px;
+}
+
+.footerHeading {
+    font-size: 3em;
+    font-weight: bold;
+}

@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+#menu {
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#logo > img {
+    width: 70px;
+    border-radius: 40px;
+    border: 3px solid white;
+}
+
+a{
+    color: white;
+}
+#menu a {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.pageHeading{
+    color: white;
+    font-size: 80px;
+    margin: 0;
+    padding-top: 20px;
+    text-shadow: 0px 0px 20px black;
+}
+#hero {
+    text-align: center;
+    background-image: url("../img/Trolltunga.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom 20px;
+    background-size: cover;
+    height: 500px;
+}
+
+/* Uživatelská část ( block posty) */
+
+.blogPostPreview {
+    width: 300px;
+    border: 1px dotted lightslategray;
+}
+
+.blogPostPreview > img {
+width: 300px;
+
+}
+
+#blogPostList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.centeredContentWrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
